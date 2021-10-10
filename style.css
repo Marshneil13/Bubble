@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+section {
+  font-size: 4rem;
+}
+#mainContainer {
+  display: inline-block;
+  /* border: 1px solid red; */
+  margin-top: 30vh;
+}
+
+button {
+  height: 100px;
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+#changeColor {
+  height: 80px;
+  margin-bottom: 25px;
+  margin-left: 70px;
+}
